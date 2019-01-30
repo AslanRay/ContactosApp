@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/etBuscarContacto"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="Buscar Contacto" app:actionViewClass="android.widget.SearchView" app:showAsAction="always"/>
+    <item
+            android:id="@+id/switchVistaContacto"
+            android:title="Switch"
+            app:showAsAction="always"
+            app:actionLayout="@layout/switch_item"/>
+    <item android:title="Agregar" android:id="@+id/btnAgregarContacto" android:icon="@drawable/ic_agregar_contacto"
+          app:showAsAction="always"/>
+</menu>

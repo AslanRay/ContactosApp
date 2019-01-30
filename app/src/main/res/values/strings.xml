@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Contactos App</string>
+    <string name="txt_tv_edad">Edad</string>
+    <string name="txt_tv_peso">Peso</string>
+    <string name="txt_tv_telefono">Telefono</string>
+    <string name="txt_tv_email">Email</string>
+    <string name="txt_tv_direccion">Direccion</string>
+</resources>

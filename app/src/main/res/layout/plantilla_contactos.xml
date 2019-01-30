@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <ImageView
+            android:layout_width="91dp"
+            android:layout_height="74dp"
+            android:id="@+id/ivFotoContacto" android:layout_marginTop="16dp" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
+            tools:srcCompat="@drawable/foto_03" android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.0"/>
+    <TextView
+            android:text="Raymundo Leon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/tvNombreContacto"
+            app:layout_constraintStart_toEndOf="@+id/ivFotoContacto" android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp" app:layout_constraintTop_toTopOf="parent"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+    <TextView
+            android:text="Desarrollador Movil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/tvInfoContacto"
+            app:layout_constraintStart_toEndOf="@+id/ivFotoContacto" android:layout_marginStart="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/tvNombreContacto" android:layout_marginTop="16dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.0"/>
+</android.support.constraint.ConstraintLayout>
